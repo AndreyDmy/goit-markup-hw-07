@@ -1,0 +1,38 @@
+.header-link {
+    display: block;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color:var(--main-title-color)
+}
+
+.header-right{
+   align-items: center;
+   display: flex;
+  
+
+}
+.header-link:hover,
+.header-link:focus{
+color:var(--accent-color)
+}
+.active { 
+ color:#2196F3;
+
+}
+.header-item{
+    position:relative;
+}
+.header-item .current::after{
+  content: " ";
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+    top: 43px;
+    left: 0;
+  height: 4px;
+background: #2196F3;
+border-radius: 2px;
+    
+}
