@@ -2,31 +2,31 @@
     margin-top: -95px;
 }
 
-.work-title{
+.work__title{
     color: var(--main-title-color);
     text-align: center;
     margin-bottom: 50px;
     font-size: 36px;
 }
 
-.work-list{
+.work__list{
     display: flex;
     padding-bottom: 94px;
     text-align: center;
     padding-left: 0;
     
 }
-.work-item{
+.work__item{
     width: 370px;
     position: relative;
  
     
 }
-.work-item:not(:last-child){
+.work__item:not(:last-child){
     margin-right: 30px;
 }
 
-.top-work{position: absolute;
+.top__work{position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;

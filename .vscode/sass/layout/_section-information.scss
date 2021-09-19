@@ -1,4 +1,10 @@
-.icon-use{
+.information__list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.icon__use{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,18 +15,20 @@
     
 }
 
-.icon-information{
+.icon__information{
     border-radius: 4px; 
    
 }
- 
-.information-list{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
+ .information__title{
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
 }
 
-.information-text{
+.information__text{
 font-size: 14px;
 line-height: 1.71;
 color: var(--main-text-color);
@@ -29,11 +37,4 @@ letter-spacing: 0.03em;}
 margin-right: 30px;
 }
 
-.information-title{
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
+
